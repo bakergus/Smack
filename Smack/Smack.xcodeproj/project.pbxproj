@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F81E19E21D0C11100AB834F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F81E19D21D0C11100AB834F /* RoundedButton.swift */; };
+		1F81E1A021D3771B00AB834F /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F81E19F21D3771B00AB834F /* UserDataService.swift */; };
+		1F81E1A221D3B52000AB834F /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F81E1A121D3B52000AB834F /* AvatarPickerVC.swift */; };
+		1F81E1A421D4644500AB834F /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F81E1A321D4644500AB834F /* AvatarCell.swift */; };
 		1F9AFF7221CCA3340001C533 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFF7121CCA3340001C533 /* GradientView.swift */; };
 		1F9AFF7521CCEF560001C533 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFF7421CCEF560001C533 /* Constants.swift */; };
 		1F9AFF7721CD09630001C533 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFF7621CD09630001C533 /* LoginVC.swift */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F81E19D21D0C11100AB834F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		1F81E19F21D3771B00AB834F /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		1F81E1A121D3B52000AB834F /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		1F81E1A321D4644500AB834F /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		1F9AFF7121CCA3340001C533 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		1F9AFF7421CCEF560001C533 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1F9AFF7621CD09630001C533 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -68,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				1FAA5DCA21CF2474006644CC /* AuthService.swift */,
+				1F81E19F21D3771B00AB834F /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 				1FCF5DCA21CC890600FBC132 /* ChannelVC.swift */,
 				1F9AFF7621CD09630001C533 /* LoginVC.swift */,
 				1F9AFF7821CD0CCD0001C533 /* CreateAccountVC.swift */,
+				1F81E1A121D3B52000AB834F /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -133,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				1F9AFF7121CCA3340001C533 /* GradientView.swift */,
+				1F81E19D21D0C11100AB834F /* RoundedButton.swift */,
+				1F81E1A321D4644500AB834F /* AvatarCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,11 +293,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FCF5DCB21CC890600FBC132 /* ChannelVC.swift in Sources */,
+				1F81E1A221D3B52000AB834F /* AvatarPickerVC.swift in Sources */,
+				1F81E19E21D0C11100AB834F /* RoundedButton.swift in Sources */,
 				1FCF5DC921CC88ED00FBC132 /* ChatVC.swift in Sources */,
+				1F81E1A021D3771B00AB834F /* UserDataService.swift in Sources */,
 				1F9AFF7921CD0CCD0001C533 /* CreateAccountVC.swift in Sources */,
 				1FAA5DCB21CF2474006644CC /* AuthService.swift in Sources */,
 				1F9AFF7721CD09630001C533 /* LoginVC.swift in Sources */,
 				1F9AFF7221CCA3340001C533 /* GradientView.swift in Sources */,
+				1F81E1A421D4644500AB834F /* AvatarCell.swift in Sources */,
 				1FCF5DA221CC792A00FBC132 /* AppDelegate.swift in Sources */,
 				1FCF5DC321CC808300FBC132 /* SWRevealViewController.m in Sources */,
 				1F9AFF7521CCEF560001C533 /* Constants.swift in Sources */,
